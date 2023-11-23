@@ -2,6 +2,6 @@
     background-color: rgb(160, 79, 79);
 }
 
-h1 p {
+h1, p {
     color: white;
 }
