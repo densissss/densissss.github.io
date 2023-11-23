@@ -1,4 +1,7 @@
 * {
     background-color: rgb(160, 79, 79);
-    color: white
+}
+
+h1, p {
+    color: white;
 }
