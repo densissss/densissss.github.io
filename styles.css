@@ -1,3 +1,4 @@
-body {
-    background-color: rgb(160, 79, 79)
+* {
+    background-color: rgb(160, 79, 79);
+    color: white
 }
