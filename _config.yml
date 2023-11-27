@@ -30,6 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+<<<<<<< HEAD
 remote_theme: pages-themes/architect@v0.2.0
 
 # theme: minima
@@ -37,6 +38,11 @@ remote_theme: pages-themes/architect@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+=======
+theme: Architext
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+>>>>>>> parent of 946d0a7 (Update _config.yml)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
