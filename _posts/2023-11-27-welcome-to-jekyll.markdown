@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welkom bij meneer Dennis!"
 date:   2023-11-27 10:45:06 +0100
 categories: jekyll update
 ---
