@@ -34,8 +34,10 @@ github_username:  jekyll
 
 # theme: minima
 theme: minimal-mistakes-jekyll
+
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 #  - jekyll-remote-theme
 
 # Exclude from processing.
