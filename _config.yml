@@ -20,7 +20,7 @@
 
 title: Meneer Dennis
 email: dennis.versyck@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "baseurl:"https://www.sunnyportal.com/FixedPages/Dashboard.aspx
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
@@ -30,19 +30,13 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-<<<<<<< HEAD
-remote_theme: pages-themes/architect@v0.2.0
+# remote_theme: pages-themes/architect@v0.2.0
 
-# theme: minima
+theme: minima
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-=======
-theme: Architext
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
->>>>>>> parent of 946d0a7 (Update _config.yml)
+#  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
