@@ -18,8 +18,8 @@ source "https://rubygems.org"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-include-cache", group: :jekyll_plugins
-  gem "github-pages", group: :jekyll_plugins
+  gem "jekyll-include-cache"
+  gem "github-pages"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
