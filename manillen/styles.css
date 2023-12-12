@@ -1,0 +1,111 @@
+.container {
+    background-color: aquamarine;
+    border-radius: 40px;
+    width: 350px;;
+    height: 600px;
+    display: grid;
+    grid-template: auto auto auto auto 1fr auto / 1fr 1px 1fr;
+    margin: auto;
+    grid-template-areas: 
+        "titel titel titel"
+        "puntenlinks . puntenrechts"
+        "oklinks . okrechts"
+        "misl . misr"
+        "links lijn rechts"
+        "subtitel subtitel subtitel"
+        ;
+    grid-gap: 10px;
+    padding-bottom: 10px;
+
+}
+
+.titel {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 8px 30px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    font-size: large;
+    grid-area: titel;
+    border: 2px solid;
+}
+
+.subtitel {
+    margin: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    grid-area: subtitel;
+}
+
+.lijn {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    width: 1px;
+    height: 100%;
+    grid-area: lijn;
+    
+
+}
+
+.links {
+    grid-area: links; 
+    margin-left: 10%;
+   
+}
+
+.rechts {
+    grid-area: rechts;
+    margin-right: 10%;
+    
+}
+
+h2 {
+    text-align: center;
+    text-decoration: wavy underline;
+}
+
+p {
+    text-align: center;
+}
+
+.puntenlinks {
+    grid-area: puntenlinks;
+    width: 115px;
+    justify-self: center;  
+}
+
+.puntenrechts {
+    grid-area: puntenrechts;
+    width: 115px;
+    justify-self: center;
+}
+
+.oklinks {
+    grid-area: oklinks;
+    justify-self: center;
+}
+.okrechts {
+    grid-area: okrechts;
+    justify-self: center;
+}
+
+.mislinks {
+    grid-area: misl;
+    width: 115px;
+    justify-self: center;
+    
+}
+.misrechts {
+    grid-area: misr;
+    width: 115px;
+    justify-self: center; 
+}
+
+.strike {
+    text-decoration: line-through;
+}
