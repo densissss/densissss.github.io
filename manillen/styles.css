@@ -1,5 +1,6 @@
+
 .container {
-    background-color: aquamarine;
+    background-color:lightgreen;
     border-radius: 40px;
     width: 350px;;
     height: 600px;
@@ -16,6 +17,7 @@
         ;
     grid-gap: 10px;
     padding-bottom: 10px;
+    border: 1px solid
 
 }
 
@@ -109,3 +111,15 @@ p {
 .strike {
     text-decoration: line-through;
 }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
