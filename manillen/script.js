@@ -23,12 +23,5 @@ function opschrijvenRechts() {
 }
 
 function reset() {
-    document.getElementById("scoresOudRechts").innerHTML = "0";   
-    document.getElementById("scoresOudLinks").innerHTML = "0";
-    document.getElementById("totaalLinks").innerHTML = "";
-    document.getElementById("totaalRechts").innerHTML = "";
-    document.getElementById("scoresOudLinks").classList.remove("strike");
-    document.getElementById("scoresOudRechts").classList.remove("strike");
-
-
+    location.reload();
 }
