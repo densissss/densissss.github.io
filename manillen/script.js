@@ -23,5 +23,8 @@ function opschrijvenRechts() {
 }
 
 function reset() {
-    location.reload();
+    var zeker = confirm("Zie je zeker daje alle puntn wilt wegdoen?");
+    if (zeker == true) {
+        location.reload();
+    }     
 }
