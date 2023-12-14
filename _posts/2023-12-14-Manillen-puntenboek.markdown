@@ -16,4 +16,4 @@ Adhv dit projectje leerde ik werken met:
   - popups
   - ...
 
-Het project is ook te vinden op de projectpagina [manillen](/manillen/)
+Het project is ook te vinden op de projectpagina [manillen](/manillen-project/)

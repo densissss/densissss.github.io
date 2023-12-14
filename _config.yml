@@ -30,7 +30,7 @@ github_username:  densissss
 navbar-links:
   About Me: "aboutme"
   Projecten:
-    - Manillen: "/manillen/"
+    - Manillen: "/manillen-project/"
 
 
 # Image to show in the navigation bar - works best with a square image

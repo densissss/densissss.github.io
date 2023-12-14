@@ -1,0 +1,182 @@
+
+body {
+    background-color:rgb(204, 204, 204)
+}
+.container {
+    background: linear-gradient(
+        rgb(31, 253, 124),
+        rgb(187, 255, 148)
+    ) ;
+    border-radius: 40px;
+    width: 350px;
+    height: 100%;
+    min-height: 500px;
+    display: grid;
+    grid-template: auto 20px auto 1fr auto auto auto / 1fr 1px 1fr;
+    margin: auto;
+    grid-template-areas: 
+        "titel titel titel"
+        "puntenlinks . puntenrechts"
+        "oklinks . okrechts"
+        "links lijn rechts"
+        "misl . misr"
+        "subtitel subtitel subtitel"
+        "kaartenl . kaartenr"
+        ;
+    grid-gap: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+
+}
+
+.titel {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 2px 40px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    font-size: 18px;;
+    grid-area: titel;
+    border: 2px solid;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    z-index: 2
+}
+
+.subtitel {
+    margin: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    grid-area: subtitel;
+}
+
+.lijn {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    width: 1px;
+    height: 100%;
+    grid-area: lijn;
+    
+
+}
+
+.links {
+    grid-area: links; 
+    margin-left: 10%;
+   
+}
+
+.rechts {
+    grid-area: rechts;
+    margin-right: 10%;
+    
+}
+
+h2 {
+    text-align: center;
+    text-decoration: wavy underline;
+}
+
+p {
+    text-align: center;
+}
+
+.puntenlinks {
+    grid-area: puntenlinks;
+    width: 115px;
+    justify-self: center;  
+}
+
+.puntenrechts {
+    grid-area: puntenrechts;
+    width: 115px;
+    justify-self: center;
+}
+
+.oklinks {
+    grid-area: oklinks;
+    justify-self: center;
+}
+.okrechts {
+    grid-area: okrechts;
+    justify-self: center;
+}
+
+.mislinks {
+    grid-area: misl;
+    width: 115px;
+    justify-self: center;
+    
+}
+.misrechts {
+    grid-area: misr;
+    width: 115px;
+    justify-self: center; 
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.knoppen {
+    margin: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+input {
+    font-size: 16px;
+    z-index: 4;
+}
+
+button {
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+
+  }
+
+#kaartenl {
+    position: absolute;
+    width: 80px;
+    z-index: 1;
+    border-radius: 30%;
+    opacity: 0.7;
+    
+}
+
+#kaartenr {
+    position: relative;
+    top: -89px;
+    left: 82px;
+    width: 80px;
+    opacity: 0.7;
+    border-radius: 30%;
+}
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
