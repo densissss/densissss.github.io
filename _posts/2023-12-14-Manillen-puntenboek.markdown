@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Project: Manillen - Puntenboek"
-date: 2023-12-14 09:42
-category: projecten
-author: 
-tags: []
-summary: "Nieuw project: score bijhouden van manillespelletjes"
+date: 2023-12-14 07:45:22 +0100
+categories: Projecten
 ---
 Om me wat wegwijs te maken in HTML/CSS/JS heb ik een eerste projectje ontwikkeld.
 
@@ -19,4 +16,4 @@ Adhv dit projectje leerde ik werken met:
   - popups
   - ...
 
-Het project is ook te vinden op.
+Het project is ook te vinden op de projectpagina [manillen](/manillen/)
